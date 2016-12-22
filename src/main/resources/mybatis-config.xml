@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    
+    <!-- 定义别名 -->
+    <typeAliases>
+        <typeAlias type="com.java.home.pojo.User" alias="User" />
+    </typeAliases>
+    <mappers>
+    	<mapper resource="com/java/mapping/userMapper.xml" />
+    </mappers>
+</configuration>
