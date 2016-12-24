@@ -6,5 +6,5 @@ import com.java.home.pojo.User;
 
 public interface UserMapper {
 
-	List<User> findAllUser();
+	 List<User> findAllUser();
 }
